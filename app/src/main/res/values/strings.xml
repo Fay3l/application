@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AppTranslate</string>
+    <!-- Activite Main -->
+    <string name="txtAccueil">Appel d\'une activité de traduction</string>
+    <string name="txt_Titre1">Traduction français -> anglais</string>
+    <string name="MotDefaut">Bonjour</string>
+    <string name="txt_motSource">Fabuleux</string>
+    <string name="btnTraduire">Envoyer pour traduction</string>
+    <string name="btnReconnaissanceVocale">Reconnaissance vocale</string>
+    <!-- Activite child 1-->
+    <string name="txtAccueilChild">Résultat de la traduction</string>
+    <string name="txt_Titre1Child">Traduction en anglais du mot </string>
+    <string name="btnTraduireChild">Lire la traduction</string>
+    <string name="txt_enter_your_motChild" translatable="false">What !!</string>
+    <string name="txt_motSourceChild" translatable="false">What !!!</string>
+    <string name="btnRetourChild">Fermer le traducteur</string>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppTranslate</string>
+    <string name="txtAccueil" translatable="false">Call for a translation activity</string>
+    <string name="txt_Titre1" translatable="false">Translation french -> english</string>
+    <string name="MotDefaut">Hello</string>
+    <string name="txt_motSource">Fabulous</string>
+    <string name="btnTraduire" translatable="false">Send for translation</string>
+    <string name="btnReconnaissanceVocale" translatable="false">Speech Recognition</string>
+    <string name="txtAccueilChild" translatable="false">Result of the translation</string>
+    <string name="txt_Titre1Child" translatable="false">English word translation</string>
+    <string name="btnTraduireChild" translatable="false">Read translation</string>
+    <string name="btnRetourChild" translatable="false">Close translator</string>
+</resources>

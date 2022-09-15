@@ -1,0 +1,46 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+
+class ChildActivity extends AppCompatActivity implements GestureDetector.OnGestureListener  {
+-  textview : TextView
+-  edittext : EditText
+-  buttonspeech : Button
+-  tts : TextToSpeech
+-  gesture : GestureDetector
++   speakFrenchAndEnglish(String Texttospeech , Locale locale):void
+#  onCreate(@Nullable Bundle savedInstanceState):void
++  onInit ( int status):void
+#  onDestroy():void
++  onTouchEvent(MotionEvent event):boolean
++  onDown(MotionEvent motionEvent):boolean
++  onShowPress(MotionEvent motionEvent):void
++  onSingleTapUp(MotionEvent motionEvent):boolean
++  onScroll(MotionEvent motionEvent, MotionEvent motionEvent1, float v, float v1):boolean
++  onLongPress(MotionEvent motionEvent):void
++  onFling(MotionEvent e1, MotionEvent e2, float v, float v1):boolean
+
+}
+
+class MainActivity extends AppCompatActivity implements GestureDetector.OnGestureListener{
+-  btnTraduire : Button
+-  Bonjour : EditText
+-  btnVocale : Button
+-  connexionReceiver : BroadcastReceiver
+-  gesture : GestureDetector
+#  onCreate(Bundle savedInstanceState) :void
+#  onActivityResult(int requestCode, int resultCode, Intent data) :void
++  onReceive(Context context, Intent intent) :void
++  onTouchEvent(MotionEvent event) :boolean
++  onDown(MotionEvent motionEvent) :boolean
++  onShowPress(MotionEvent motionEvent) :void
++  onSingleTapUp(MotionEvent motionEvent) :boolean
++  onScroll(MotionEvent motionEvent, MotionEvent motionEvent1, float v, float v1) :boolean
++  onLongPress(MotionEvent motionEvent) :void
++  onFling(MotionEvent e1, MotionEvent e2, float v, float v1) :boolean
+}
+
+
+
+@enduml
